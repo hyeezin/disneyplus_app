@@ -8,7 +8,7 @@
     justify-content: center;
     width: 80px;
     height: 100%;
-    padding: 20px;
+    padding: 20px 20px 20px 0;
     box-sizing: border-box;
     background-clip: content-box;
     transform: 400ms all ease-in-out;
@@ -26,7 +26,7 @@
     justify-content: center;
     width: 80px;
     height: 100%;
-    padding: 20px;
+    padding: 20px 0 20px 20px;
     box-sizing: border-box;
     background-clip: content-box;
     transform: 400ms all ease-in-out;
@@ -63,7 +63,7 @@
     display: flex;
     overflow-y: hidden;
     overflow-x: auto;
-    padding: 20px 0 20px 20px;
+    padding: 20px 0;
     scroll-behavior: smooth;
 }
 
@@ -81,6 +81,11 @@
 
 .row__poster:hover{
     transform: scale(1.08);
+    cursor: pointer;
+}
+
+.row__poster:last-child{
+    margin-right: 0;
 }
 
 @media screen and (min-width: 1200px){

@@ -5,6 +5,7 @@
     background-color: rgba(0 0 0 / 71%);
     inset: 0;
     position: fixed;
+    padding: 2rem 0;
 }
 
 .presentation{
@@ -82,7 +83,6 @@
 @media screen and (max-height: 768px){
     .wrapper-modal{
         align-items: unset;
-        padding-top: 2rem;
     }
     
     .modal{
